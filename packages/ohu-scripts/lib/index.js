@@ -28,5 +28,4 @@ commander_1.default
     .option('--runTestsByPath', 'Run only the tests that were specified with their exact paths.')
     .description('run test')
     .action(test_1.default);
-console.log(process.argv);
 commander_1.default.parse(process.argv);
