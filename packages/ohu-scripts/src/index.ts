@@ -33,5 +33,4 @@ commander
   .option('--runTestsByPath', 'Run only the tests that were specified with their exact paths.')
   .description('run test')
   .action(test);
-console.log(process.argv)
 commander.parse(process.argv);
