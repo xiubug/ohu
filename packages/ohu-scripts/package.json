@@ -1,0 +1,64 @@
+{
+  "name": "ohu-scripts",
+  "version": "0.0.5",
+  "description": "Configuration and scripts for Create Utils",
+  "keywords": [
+    "utils",
+    "scripts"
+  ],
+  "author": "Wei Changhua <sosout@139.com>",
+  "homepage": "https://github.com/sosout/ohu#readme",
+  "main": "lib/index.js",
+  "bin": {
+    "ohu-scripts": "./lib/index.js"
+  },
+  "files": [
+    "lib",
+    "docs-template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosout/ohu.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/sosout/ohu/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.0",
+    "@types/del": "^4.0.0",
+    "@types/gulp": "^4.0.6",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "cross-spawn": "^6.0.5",
+    "del": "^5.0.0",
+    "esdoc": "^1.1.0",
+    "esdoc-coverage-plugin": "^1.1.0",
+    "esdoc-importpath-plugin": "^1.0.2",
+    "esdoc-publish-html-plugin": "^1.1.2",
+    "esdoc-standard-plugin": "^1.0.0",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^2.0.2",
+    "gulp-json-editor": "^2.5.2",
+    "gulp-typescript": "^5.0.1",
+    "jest": "^24.8.0",
+    "merge2": "^1.2.3",
+    "ts-jest": "^24.0.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
+  },
+  "gitHead": "7985886048681d9de8f8cd1817aee963f08fe850"
+}

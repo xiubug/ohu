@@ -1,0 +1,47 @@
+{
+  "name": "ohu",
+  "version": "0.0.5",
+  "description": "Create js utils function",
+  "keywords": [
+    "utils"
+  ],
+  "author": "Wei Changhua <sosout@139.com>",
+  "homepage": "https://github.com/sosout/ohu#readme",
+  "main": "lib/index.js",
+  "bin": {
+    "ohu": "./lib/index.js"
+  },
+  "files": [
+    "lib",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosout/ohu.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/sosout/ohu/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^8.1.0",
+    "tslib": "^1.10.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.0",
+    "@types/fs-extra": "^8.0.0",
+    "@types/node": "^12.0.10",
+    "typescript": "^3.5.2"
+  },
+  "gitHead": "7985886048681d9de8f8cd1817aee963f08fe850"
+}
