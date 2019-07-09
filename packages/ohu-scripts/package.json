@@ -1,6 +1,6 @@
 {
   "name": "ohu-scripts",
-  "version": "0.0.4-alpha.4",
+  "version": "0.0.4-alpha.3",
   "description": "Configuration and scripts for Create Utils",
   "keywords": [
     "utils",
@@ -38,27 +38,27 @@
     "@types/node": "^12.0.10"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.19.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
     "cross-spawn": "^6.0.5",
-    "del": "^3.0.0",
+    "del": "^5.0.0",
     "esdoc": "^1.1.0",
     "esdoc-coverage-plugin": "^1.1.0",
     "esdoc-importpath-plugin": "^1.0.2",
     "esdoc-publish-html-plugin": "^1.1.2",
     "esdoc-standard-plugin": "^1.0.0",
-    "fs-extra": "^7.0.1",
-    "gulp": "^4.0.0",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
-    "gulp-gh-pages": "0.5.4",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.2",
-    "gulp-json-editor": "^2.5.0",
-    "gulp-typescript": "^5.0.0",
-    "jest": "^23.6.0",
+    "gulp-json-editor": "^2.5.2",
+    "gulp-typescript": "^5.0.1",
+    "jest": "^24.8.0",
     "merge2": "^1.2.3",
-    "ts-jest": "^23.10.5",
-    "tslib": "^1.9.3",
-    "typescript": "^3.2.2"
+    "ts-jest": "^24.0.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
   },
   "gitHead": "ae5b30fc6f0147935683b15cfd466538a97cfc94"
 }
