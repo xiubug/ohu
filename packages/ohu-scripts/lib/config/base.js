@@ -1,7 +1,7 @@
 "use strict";
 var path = require('path');
 var distCwd = process.cwd();
-var appPackge = require(path.join(distCwd, 'package.json'));
+var appPackage = require(path.join(distCwd, 'package.json'));
 appPackage.devDependencies = appPackage.devDependencies || {};
 module.exports = {
     useTypeScript: appPackage.devDependencies['typescript'] != null,

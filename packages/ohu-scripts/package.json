@@ -48,7 +48,7 @@
     "esdoc-publish-html-plugin": "^1.1.2",
     "esdoc-standard-plugin": "^1.0.0",
     "fs-extra": "^8.1.0",
-    "gulp": "^4.0.2",
+    "gulp": "^4.0.0",
     "gulp-connect": "^5.7.0",
     "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.2",
