@@ -51,7 +51,7 @@ function default_1(name) {
     console.log("Installing " + chalk_1.default.cyan(packageToInstall));
     var args = ['add', '--exact'];
     args.push(packageToInstall);
-    if (!this.ts) {
+    if (this.ts) {
         args.push('@types/node', '@types/jest', 'typescript', 'tslib');
     }
     args.push('-D');

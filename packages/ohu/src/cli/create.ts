@@ -65,7 +65,7 @@ export default function(name: string): void {
 
     const args = ['add', '--exact'];
     args.push(packageToInstall);
-    if (!this.ts) {
+    if (this.ts) {
         args.push('@types/node', '@types/jest', 'typescript', 'tslib');
     }
     args.push('-D');
