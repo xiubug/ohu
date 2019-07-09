@@ -7,7 +7,7 @@ import '../tasks';
 gulp.on('error', e => console.log('error', e));
 
 export default function() {
-  gulp.task('publish-doc')((err) => {
+  gulp.task('publish-doc', () => {
     console.log('Automatically generate documents via esdoc');
     console.log(`Documents has been posted to the ${chalk.cyan('gh-pages')} branch`);
   });

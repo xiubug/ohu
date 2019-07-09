@@ -8,7 +8,7 @@ process.env.NODE_ENV = 'production'
 gulp.on('error', e => console.log('error', e));
 
 export default function() {
-  gulp.task('build')((err) => {
+  gulp.task('build', () => {
     console.log('Build task has been completed');
 
     console.log();

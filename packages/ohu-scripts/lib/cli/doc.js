@@ -6,7 +6,7 @@ var chalk_1 = tslib_1.__importDefault(require("chalk"));
 require("../tasks");
 gulp_1.default.on('error', function (e) { return console.log('error', e); });
 function default_1() {
-    gulp_1.default.task('publish-doc')(function (err) {
+    gulp_1.default.task('publish-doc', function () {
         console.log('Automatically generate documents via esdoc');
         console.log("Documents has been posted to the " + chalk_1.default.cyan('gh-pages') + " branch");
     });

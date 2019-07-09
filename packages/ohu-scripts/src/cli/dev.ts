@@ -9,5 +9,7 @@ gulp.on('error', e => console.log('error', e));
 
 export default function() {
 
-  gulp.task('dev')((err) => {console.log('dev done')});
+  gulp.task('dev', () => {
+    console.log('dev done')
+  });
 }

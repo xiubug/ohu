@@ -6,6 +6,8 @@ require("../tasks");
 process.env.NODE_ENV = 'development';
 gulp_1.default.on('error', function (e) { return console.log('error', e); });
 function default_1() {
-    gulp_1.default.task('dev')(function (err) { console.log('dev done'); });
+    gulp_1.default.task('dev', function () {
+        console.log('dev done');
+    });
 }
 exports.default = default_1;

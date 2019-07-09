@@ -8,7 +8,7 @@ require("../tasks");
 process.env.NODE_ENV = 'production';
 gulp_1.default.on('error', function (e) { return console.log('error', e); });
 function default_1() {
-    gulp_1.default.task('build')(function (err) {
+    gulp_1.default.task('build', function () {
         console.log('Build task has been completed');
         console.log();
         console.log("Please checkout to " + chalk_1.default.cyan('publish/' + config_1.default.target.tsconfig.module) + " branch, and publish it");

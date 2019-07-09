@@ -1,6 +1,6 @@
 {
   "name": "ohu-scripts",
-  "version": "0.0.4-alpha.1",
+  "version": "0.0.4-alpha.0",
   "description": "Configuration and scripts for Create Utils",
   "keywords": [
     "utils",
@@ -48,7 +48,7 @@
     "esdoc-publish-html-plugin": "^1.1.2",
     "esdoc-standard-plugin": "^1.0.0",
     "fs-extra": "^8.1.0",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
     "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.2",
@@ -60,5 +60,5 @@
     "tslib": "^1.10.0",
     "typescript": "^3.5.2"
   },
-  "gitHead": "7985886048681d9de8f8cd1817aee963f08fe850"
+  "gitHead": "ae5b30fc6f0147935683b15cfd466538a97cfc94"
 }
