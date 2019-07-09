@@ -1,7 +1,7 @@
 const path = require('path');
 
 const distCwd = process.cwd();
-const appPackge = require(path.join(distCwd, 'package.json'));
+const appPackage = require(path.join(distCwd, 'package.json'));
 appPackage.devDependencies = appPackage.devDependencies || {};
 
 module.exports = {
