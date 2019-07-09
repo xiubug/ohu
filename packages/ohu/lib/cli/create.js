@@ -41,9 +41,9 @@ function default_1(name) {
     };
     fs_extra_1.default.writeFileSync(path_1.default.join(root, 'package.json'), JSON.stringify(packageJson, null, 2) + os_1.default.EOL);
     // copy template
-    var templateSrc = path_1.default.resolve(__dirname, '../../template-javascript');
+    var templateSrc = path_1.default.resolve(__dirname, '../../template/javascript');
     if (this.ts) {
-        templateSrc = path_1.default.resolve(__dirname, '../../template-typescript');
+        templateSrc = path_1.default.resolve(__dirname, '../../template/typescript');
     }
     fs_extra_1.default.copySync(templateSrc, root);
     // cd root

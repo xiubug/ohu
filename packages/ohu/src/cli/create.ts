@@ -51,9 +51,9 @@ export default function(name: string): void {
         JSON.stringify(packageJson, null, 2) + os.EOL
     );
     // copy template
-    let templateSrc = path.resolve(__dirname, '../../template-javascript');
+    let templateSrc = path.resolve(__dirname, '../../template/javascript');
     if (this.ts) {
-        templateSrc = path.resolve(__dirname, '../../template-typescript');
+        templateSrc = path.resolve(__dirname, '../../template/typescript');
     }
     fs.copySync(templateSrc, root);
     // cd root
